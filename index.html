@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html oncontextmenu=" false" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://d1j8r0kxyu9tj8.cloudfront.net/images/1533455616Z5Gtl4oKo0qM1E9.jpg" type="image/x-icon"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./access/css/base.css">
+    <link rel="stylesheet" href="./access/css/main.css">
+    <link rel="stylesheet" href="./access/icon/fontawesome-free-6.0.0-beta2-web/css/all.css">
+    <link rel="stylesheet" href="./access/music/Thay long.mp3">
+    <title>Mp3</title>
+    <script>
+        function playVideo() {
+            alert("Chọn 1 playlist ở trên")
+        }
+    </script>
+</head>
+<body>
+    <div class="app">
+        <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <div class="nav1">
+                            <a href="./"><div class="nav__logo"></div></a>
+                            <ul class="nav__list">
+                                <li class="nav__list-item"><i class="fa-solid fa-book-open nav__list-item-icon"></i>Cá nhân</li>
+                                <li class="nav__list-item nav__list-item-icon--act"><i class="fa-solid fa-compact-disc nav__list-item-icon"></i>Khám phá</li>
+                                <li class="nav__list-item"><i class="fa-solid fa-chart-gantt nav__list-item-icon"></i>#zingchart</li>
+                                <li class="nav__list-item"><i class="fa-solid fa-tower-broadcast nav__list-item-icon"></i>Radio</li><div class="nav__list-itemlive">LIVE</div>
+                                <li class="nav__list-item nav__list-item-end"><i class="fa-regular fa-square-plus nav__list-item-icon"></i>Theo dõi</li>
+                            </ul>
+                        </div>
+                        <div class="nav2">
+                            <ul class="nav__list">
+                                <li class="nav__list-item"><i class="fa-solid fa-music nav__list-item-icon"></i>Nhạc Mới</li>
+                                <li class="nav__list-item"><i class="fa-solid fa-earth-asia nav__list-item-icon"></i>Thể Loại</li>
+                                <li class="nav__list-item"><i class="fa-regular fa-star nav__list-item-icon"></i>Top 100</li>
+                                <li class="nav__list-item"><i class="fa-solid fa-photo-film nav__list-item-icon"></i>MV</li>
+                            </ul>
+                            <div class="nav-log__1">
+                                <div class="nav-log__heading">Đăng nhập để khám phá playlist dành riêng cho bạn</div>
+                                <div class="nav-log__button">Đăng Nhập</div>
+                            </div>
+                            <div class="nav-log__2">
+                                <div class="nav-log__heading">Nghe nhạc không quảng cáo cùng kho nhạc VIP</div>
+                                <div class="nav-log__2-button">Nâng Cấp VIP</div>
+                            </div>
+                        </div>
+                            <div class="nav__playlist"><i class="fa-solid fa-plus nav__playlist-icon"></i>Tạo Playlist mới</div>
+                        <div class="footer">
+                            <div class="footer__infor">
+                                <div class="grid footer-grid">
+                                    <div class="footer__infor-1">
+                                        <div class="footer__infor-1-img"></div>
+                                        <div class="footer__infor-1-heading">
+                                            <p class="footer__infor-1-heading-1">Thay Lòng</p>
+                                            <p class="footer__infor-1-heading-2">DIMZ, TVk, NH4T</p>
+                                        </div>
+                                            <i title="Thêm vào thư viện" class="fa-regular fa-heart footer__infor-1-more"></i>
+                                            <i title="Xem thêm" class="fa-solid fa-caret-up footer__infor-1-more"></i>
+                                    </div>
+                                    <div class="footer__infor-2">
+                                        <div class="footer__infor-2-control-1">
+                                            <i onclick=playVideo() class="fa-solid fa-shuffle footer__infor-2-icon"></i>
+                                            <i onclick=playVideo() class="fa-solid fa-backward-step footer__infor-2-icon footer__infor-2-icon-dis"></i>
+                                            <i onclick=playVideo() class="fa-regular fa-circle-play footer__infor-2-icon-play"></i>
+                                            <i onclick=playVideo() class="fa-solid fa-forward-step footer__infor-2-icon"></i>
+                                            <i onclick=playVideo() class="fa-solid fa-repeat footer__infor-2-icon"></i>
+                                        </div>
+                                        <div class="footer__infor-2-control-2">
+                                            <div class="footer__infor-2-control-2-st">00:00</div>
+                                            <div class="footer__infor-2-control-2__1"></div>
+                                            <div class="footer__infor-2-control-2-end">04:36</div>
+                                        </div>
+                                    </div>
+                                    <div class="footer__infor-3">
+                                        <i class="fa-solid fa-photo-film footer__infor-3-icon footer__icon-hover"></i>
+                                        <i class="fa-solid fa-microphone footer__infor-3-icon footer__icon-hover"></i>
+                                        <i class="fa-regular fa-window-restore footer__infor-3-icon footer__icon-hover"></i>
+                                        <i class="fa-solid fa-volume-low footer__infor-3-icon footer__icon-hover"></i>
+                                        <div class="footer__infor-3__volumn"></div>
+                                        <i class="fa-solid fa-list-ul footer__infor-3-icon  footer__infor-3-icon__end footer__icon-hover"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="header">
+                            <div class="header__statrt">
+                                <i class="fa-solid fa-arrow-left header__statrt-icon"></i>
+                                <i class="fa-solid fa-arrow-right header__statrt-icon"></i>
+                                <div class="header__search">
+                                    <i class="fa-solid fa-magnifying-glass header__search-icon"></i>
+                                    <input class="header__search-inp" type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                                </div>
+                            </div>
+                            <div class="header__end">
+                                <i class="fa-solid fa-shirt header__end-icon"></i>
+                                <i class="fa-solid fa-upload header__end-icon"></i>
+                                <i class="fa-solid fa-gear header__end-icon"></i>
+                                <i class="fa-solid fa-circle-user header__end-icon-end"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="cl__10">
+                                <div class="content__list-3">
+                                    <div class="content__item content__item-1">
+                                    </div>
+                                    <div class="content__item content__item-2">
+                                    </div>
+                                    <div class="content__item content__item-3">
+                                    </div>
+                                </div>
+                                <div class="heading__list">
+                                    <h1 class="heading__list-h1">Gần Đây</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="cl__2 cl__2-s">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/9/7/c/9/97c960ac271e94fa47c87a12aa7d3be5.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">#ZINGCHART</div>
+                                                </a>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/US-UK-Thang-11-2021-Taylor-Swift-Little-Mix-Post-Malone-The-Weeknd/69I8CZFB.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/6/a/4/e/6a4e2d1e64f19112c2596681bb69c29d.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/US-UK-Thang-11-2021-Taylor-Swift-Little-Mix-Post-Malone-The-Weeknd/69I8CZFB.html">
+                                                    <div class="item__head">US-UK Tháng 11/2021</div>
+                                                </a>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2 cl__2-e">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/playlist/Asia-Tune-XONE-RADIO/68FB8B8O.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/6/0/0/8/600847de00abc0b6feba65e3fdaddf94.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/playlist/Asia-Tune-XONE-RADIO/68FB8B8O.html">
+                                                    <div class="item__head">Asia Tune</div>
+                                                </a>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="heading__list">
+                                    <h1 class="heading__list-h1">Lựa Chọn Hôm Nay</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="cl__2 cl__2-s">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/9/7/c/9/97c960ac271e94fa47c87a12aa7d3be5.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">V-POP Đầy Hứa Hẹn</div>
+                                                </a>
+                                                <div class="item__title">Những ca khúc V-Pop hứa hẹn sẽ thành hit trong năm này</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                  <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/d/d/7/e/dd7e8c4060ca1f88194c6ce73a023b00.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Throwback SoftPop</div>
+                                                </a>
+                                                <div class="item__title">Nhạc mới của Hwua Sa, SF9, ONEUS đã cập nhật rồi đây</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                   <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/8/e/5/9/8e59972feeb8faa7a06d9054a3e5d2ab.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">US-UK Tháng 11/2021</div>
+                                                </a>
+                                                <div class="item__title">Pop và Rap kết hợp ăn ý tạo nên những bản hit ăn điểm</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/5/a/d/0/5ad0b1e705e8d0ab207cdce78eef88b0.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Pop Rap</div>
+                                                </a>
+                                                <div class="item__title">Ẩm hưởng DISCO trong âm nhạc hiện đại</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2 cl__2-e">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/b/1/4/2/b1426375d732cbf2ec55246c6eb57141.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Disco Now</div>
+                                                </a>
+                                                <div class="item__title">Ẩm hưởng DISCO trong âm nhạc hiện đại</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="heading__list">
+                                    <h1 class="heading__list-h1">XONE's CORNER</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="cl__2 cl__2-s">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/e/e/1/a/ee1a82af4fa439d66176b89f744e4e9a.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Daily XONE's Picks</div>
+                                                </a>
+                                                <div class="item__title">Những chiếc nhạc đặc biệt tuyển chọn bởi XONE Radio</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/e/b/5/a/eb5a2f1eadff2a54912cf8a2ec7b3ed4.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Throwback SoftPop</div>
+                                                </a>
+                                                <div class="item__title">Nhạc Pop dịu dàng, dễ khởi nguồn từ Nam ra Bắc</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                  <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/b/3/e/6/b3e6b2bc6f80f1fd8629ade8128fb477.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Justatee's flavour</div>
+                                                </a>
+                                                <div class="item__title">Người chơi hệ rap nghe gì?</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/9/8/6/b/986b3f769a710b9bdcbcc15fb5d7f30e.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Indie Hits</div>
+                                                </a>
+                                                <div class="item__title">Những cái tên Indie nổi bật nhất</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl__2 cl__2-e">
+                                        <div class="list">
+                                            <div class="item">
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                <div style="background-image: url(https://photo-resize-zmp3.zadn.vn/w320_r1x1_webp/cover/5/9/7/a/597ad674052782734bf0f812bcbb0e90.jpg);" class="item__img zoom-in"></div>
+                                                </a>
+                                                <a href="https://zingmp3.vn/album/ZINGCHART-Various-Artists/ZO68OC68.html">
+                                                    <div class="item__head">Asia Tune</div>
+                                                </a>
+                                                <div class="item__title">Âm nhạc Châu Á bùng nổ khắp thế giới</div>
+                                                <div class="item-more">
+                                                    <i title="Thêm vào thư viện" class="fa-regular fa-heart item-more-icon"></i>
+                                                    <i title="Phát" class="fa-regular fa-circle-play item-more-icon item-more-icon__mid"></i>
+                                                    <i title="Xem thêm" class="fa-solid fa-circle-info item-more-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

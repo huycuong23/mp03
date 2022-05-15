@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #2f2739;
+  --text-color: #fff;
+}
+input {
+  color: white;
+}
+audio {
+  display: none;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+/* repoinsive */
+.grid {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid__column-2 {
+  width: 240px;
+}
+.cl__10 {
+  width: 1046px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  height: 100%;
+}
+.content__list-3 {
+  height: 186px;
+  width: 100%;
+}
+.cl__2 {
+  display: flex;
+  width: 20%;
+  margin: 0 15px;
+}
+.cl__2-s {
+  margin-left: 0;
+}
+.cl__2-e {
+  margin-right: 0;
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+.zoom-in {
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+}
+.zoom-in:hover {
+  opacity: 0.6;
+  transform: scale(1.06);
+}
