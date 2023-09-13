@@ -23,6 +23,10 @@ html {
 }
 
 /* repoinsive */
+.app {
+  height: 100vh;
+  position: relative;
+}
 .grid {
   width: 100%;
   display: flex;

@@ -1,3 +1,4 @@
+
 .nav__logo {
   background-image: url(https://zmp3-static.zadn.vn/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg);
   background-repeat: no-repeat;
@@ -9,7 +10,7 @@
 .nav1 {
   background-color: rgb(47, 39, 57);
   padding-top: 1.6rem;
-  height: 100vh;
+  height: calc(100vh - 90px);
   width: 100%;
 }
 .nav__list:last-child {
@@ -157,17 +158,22 @@
   color: rgb(216, 216, 216);
   border-color: rgb(216, 216, 216);
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
 .footer__infor {
   border-top: 1px solid hsla(0, 0%, 100%, 0.1);
   display: block;
-  position: absolute;
   border-top: 1px solid hsla(0, 0%, 100%, 0.1);
   background-color: #120c1c;
   height: 90px;
   width: 100%;
   padding: 0 10px;
   cursor: pointer;
-  bottom: 0;
 }
 .footer-grid {
   justify-content: space-between;
@@ -184,23 +190,29 @@
 }
 .footer__infor-1-img {
   background-image: url(https://photo-resize-zmp3.zadn.vn/w240_r1x1_webp/cover/f/c/2/8/fc28119fe63bad8efc51cdb1f2d13a69.jpg);
-  border-radius: 50%;
+  border-radius: 50px;
   height: 64px;
-  width: 64px;
+  min-width: 64px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-clip: border-box;
 }
 .footer__infor-1-heading {
   cursor: pointer;
+  padding: 0;
+
 }
 .footer__infor-1-heading-1 {
   font-weight: 500;
   margin-bottom: 2px;
+  padding: 0;
+  margin: 0;
+
 }
 .footer__infor-1-heading-2 {
   color: rgb(184, 184, 184);
   margin-top: 2px;
+  margin: 0;
+
 }
 .footer__infor-1-more {
   font-size: 1.6rem;
@@ -362,6 +374,7 @@
   padding: 0;
   background-color: #170f23;
   height: calc(100% - 90px);
+  overflow: hidden;
 }
 .header {
   height: 70px;
